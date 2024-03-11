@@ -1,0 +1,24 @@
+{
+  "name": "desafio_final_typescript_vcdel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/index.ts",
+    "test": "ts-node ./src/model/recipe.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "args-parser": "^1.3.0",
+    "crypto-js": "^4.2.0",
+    "jsonfile": "^6.1.0",
+    "moment": "^2.30.1",
+    "picocolors": "^1.0.0"
+  }
+}
